@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import "./styles/themes/bootstrap.scss";
+import ThemeChangeProvider from "./providers/theme-change";
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ThemeChangeProvider>
+        <App />
+    </ThemeChangeProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
