@@ -6987,6 +6987,11 @@ last-call-webpack-plugin@^3.0.0:
     lodash "^4.17.5"
     webpack-sources "^1.1.0"
 
+lazy-theme-changer@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/lazy-theme-changer/-/lazy-theme-changer-1.0.0.tgz#0183137a60855dc8e967193fedd2d564e99310f4"
+  integrity sha512-kKq1BoYJHlWPKcPbkYkPnM8SGBkqoD3+zBxSqt2TBWwDCugxPiPDyYoIYKrq0eRs+yKlPOpWu5jpUu3G6u4wEw==
+
 leven@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/leven/-/leven-3.1.0.tgz#77891de834064cccba82ae7842bb6b14a13ed7f2"
